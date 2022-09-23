@@ -784,12 +784,26 @@ html, body {
             font-size: var(--font-size-16);
         }
 
-        .sale-50 .container .learn-more {
+        /* .sale-50 .container .learn-more {
             margin-left: 40rem;
             padding-top: 120px;
             
+        } */
+        .circle-white {
+            background-color: #fff;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            outline: 2px dashed var(--color-theme);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
-        
+        .sale-50 .circle-white h2 {
+            color: var(--color-theme);
+            font-weight: 700;
+        }
 /*--------------------------box-theme-----------------------*/
 
     .sale-50 .container .sale-content {
